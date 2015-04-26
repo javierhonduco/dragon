@@ -8,8 +8,6 @@ struct Node{
 	Node* children[2];
 };
 
-
-
 void
 printAST(Node* node, int level)
 {
@@ -36,7 +34,7 @@ create_node(char* type, char* value, int is_leaf)
 		.type		= type, 
 		.value		= value,
 		.is_leaf	= is_leaf,
-		.children = {0, 0}
+		.children	= {0, 0}
 	};
 	return node;
 }
