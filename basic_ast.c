@@ -70,7 +70,7 @@ printAST(Node* node, int level)
 Node*
 create_node(char* type, char* value, int is_leaf)
 {
-	DynamicArray* array = init_array(10);
+	DynamicArray* array = init_array(2);
 	Node* node = malloc(sizeof(Node));
 	node->type = type;
 	node->value = value;
