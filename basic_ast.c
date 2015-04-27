@@ -121,7 +121,7 @@ main(int argc, char* argv[])
 
 	printAST(node1, 0);
 	
-	DynamicArray* array = init_array(1);
+	DynamicArray* array = init_array(2);
 	array_append(array, node1);
 	array_append(array, node2);
 	array_append(array, node3);
