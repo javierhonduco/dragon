@@ -46,8 +46,8 @@
     },
     {
       "component": "header",
-      "heading": "dragon",
-      "subhead": "just an ast playground",
+      "heading": "Dragon",
+      "subhead": "a simple AST playground",
       "children": [
         {
           "component": "ui/TweetButton",
@@ -58,6 +58,12 @@
           "component": "ui/GithubButton",
           "user": "javierhonduco",
           "repo": "dragon"
+        }
+      ],
+      "links": [
+        {
+          "href": "",
+          "text": "this is pretty dope. huh?"
         }
       ]
     },
